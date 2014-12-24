@@ -1,0 +1,17 @@
+{
+  "name": "bvbren88.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bvbren88/bvbren88.github.io",
+  "authors": [
+    "davidgvns <davidgvns@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
