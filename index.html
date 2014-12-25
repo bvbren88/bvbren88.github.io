@@ -3,10 +3,12 @@ layout: page
 title: 
 permalink: /
 ---
-
+<html>
+<body class= "home-body">
 <div class="home">
 <div class="page-lead">
-  <h1 class="page-heading">Posts</h1>
+ <h1 class="main-hello">Brenda <span>Ruby</span> Photography</h1>
+  <h2 class="page-heading">Recently added:</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -23,3 +25,5 @@ permalink: /
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
 </div>
+</body>
+</html>

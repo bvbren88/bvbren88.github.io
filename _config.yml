@@ -1,6 +1,6 @@
 # Site settings
 title: Brenda <span>Ruby</span>
-email: bvbren@gmail.com
+email: Email me: bvbren@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Brenda Ruby's Photograpy and Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
