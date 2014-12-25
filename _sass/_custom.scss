@@ -1,6 +1,6 @@
 .site-header {
   background-image: url('/photos/footer_lodyas.png');
-  color: white;
+  color: #9b111e;
 }
 
 .site-title {
@@ -8,6 +8,7 @@
     &,
     &:visited {
         color: white;
+        text-shadow: 2px 2px #9b111e;
         font-family: cursive;
     }
 }
@@ -23,6 +24,7 @@
 
     .page-link {
         color: white;
+      text-shadow: 2px 2px #9b111e;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -84,11 +86,13 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-image: url('/photos/footer_lodyas.png');
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+  
 }
 
 .contact-list,
@@ -228,7 +232,8 @@
 
 
 span {
-  color: blue; 
+  color: #9b111e;
+  text-shadow: 2px 2px white;
 }
 
 .page-lead {
