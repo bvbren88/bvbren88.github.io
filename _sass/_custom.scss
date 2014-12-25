@@ -238,8 +238,10 @@ span {
 
 .page-lead {
   background-image: url('/photos/jezliah.jpg');
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  max-height: 200px;
   text-align: center;
   background-size: cover;
   color: white;
@@ -297,4 +299,5 @@ h3 {
 }
 .main-hello {
   font-family: cursive;
+  margin-top: 20%;
 }
