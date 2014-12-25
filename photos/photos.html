@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Photos
+title: Gallery
 permalink: /photos/
 ---
 
 <div class="home">
-
   <h1 class="page-heading">Photo Albums</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="blog-tile">
-        <img src={{posts.img}}>
+        <img src="{{posts.img}}">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -20,6 +19,5 @@ permalink: /photos/
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <p class="rss-subscribe">subscribe <a href="{{/feed.xml | prepend: site.baseurl }}">via RSS</a></p>
 </div>

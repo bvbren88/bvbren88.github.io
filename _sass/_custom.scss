@@ -1,5 +1,5 @@
 .site-header {
-  background-color: #9b111e;
+  background-image: url('/photos/footer_lodyas.png');
   color: white;
 }
 
@@ -153,6 +153,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-image: url('/photos/tree_bark.png');
 }
 
 .page-heading {
@@ -223,4 +224,28 @@
             font-size: 18px;
         }
     }
+}
+
+
+span {
+  color: blue; 
+}
+
+.page-lead {
+  background-image: url('/photos/jezliah.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  padding: 100px 50px;
+  text-shadow: 1px 1px black;
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }
