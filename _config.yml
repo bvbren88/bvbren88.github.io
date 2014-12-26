@@ -1,6 +1,6 @@
 # Site settings
-title: Brenda <span class="ruby">Ruby</span>
-email: bvbren@gmail.com
+title: "Brenda <span class='ruby'>Ruby</span>"
+email: "bvbren@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
   Photos, Words and Works
 baseurl: "" # the subpath of your site, e.g. /blog/
