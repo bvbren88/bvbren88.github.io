@@ -284,20 +284,29 @@ h3 {
   display: none;
 }
 
-.blog-tile {
+.index-tile {
   display: inline-block;
   margin: 2.35765%;
   width: 23.23176%;
   .post-link{
     font-weight: bold;
   }
+}
+  
+.blog-tile {
+  display: inline-block;
+  margin: 2%;
+  width: 96%;
+  border-image: url('/photos/footer_lodyas.png') 10 10;
+  .post-link{
+    font-weight: bold;
+  }
   img {
-    height: 200px;
-    width: 200px;
+    width: 100%;
     display: block;
   }
 }
 .main-hello {
   font-family: cursive;
-  margin-top: 20%;
+  margin-top: 30%;
 }
