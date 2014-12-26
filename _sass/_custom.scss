@@ -231,9 +231,9 @@
 }
 
 
-span {
+.ruby {
   color: #9b111e;
-  text-shadow: 1px 1px white;
+  text-shadow: 2px 2px #b03060;
 }
 
 .page-lead {
@@ -241,9 +241,9 @@ span {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  max-height: 200px;
-  text-align: center;
   background-size: cover;
+  text-align: center;
+  border-image: url('/photos/footer_lodyas.png') 10 10;
   color: white;
   display: block;
   font-family: Georgia, "Times New Roman", serif;
